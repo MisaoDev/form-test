@@ -1,0 +1,44 @@
+{
+  "formulario": {
+      "name": "Ejemplo",
+      "descripcion": "Formulario de ejemplo",
+      "form": [
+          {
+              "question": "Animal favorito",
+              "type": "SELECT",
+              "items": [
+                  {
+                      "id": 1,
+                      "value": "Grillo"
+                  },
+                  {
+                      "id": 2,
+                      "value": "Caracol"
+                  },
+                  {
+                      "id": 3,
+                      "value": "Rana"
+                  },
+                  {
+                      "id": 4,
+                      "value": "Langosta"
+                  }
+              ]
+          },
+          {
+              "question": "¿Otro animal que te guste?",
+              "type": "INPUT"
+          },
+          {
+              "question": "Selecciona los animales más lindos",
+              "type": "CHECKBOX",
+              "items": [
+                  "Grillo",
+                  "Grillo!",
+                  "Grillo!!",
+                  "Definitivamente, el grillo."
+              ]
+          }
+      ]
+  }
+}
