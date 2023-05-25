@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   ssr: false,
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
+    baseURL: '/form-test/'
   },
 
   css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.min.css'],
