@@ -1,1 +1,0 @@
-import{u as a}from"./asyncData.326c5b3f.js";import{f as e,x as t,o as s}from"./entry.3605826b.js";const m={__name:"index",setup(n){return a(async()=>{await t("/mainpage")},"$PslAyef5YX"),(o,r)=>(s(),e("div"))}};export{m as default};
