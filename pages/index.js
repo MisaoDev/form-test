@@ -1,3 +1,0 @@
-definePageMeta({
-  redirect: '/mainpage',
-})
